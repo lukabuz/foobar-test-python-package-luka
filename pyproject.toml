@@ -1,4 +1,23 @@
+[project]
+name = "foobar-test-python-package-luka"
+description = "test"
+version = "0.1.0"
+authors = [
+    { name = "Luka Buzaladze", email = "lbuzaladze99@gmail.com" }
+]
+dependencies = [
+   "aiohttp",
+   "kopf",
+   "kr8s",
+   "importlib_metadata",
+   "dask_kubernetes",
+   "distributed",
+   "dask"
+]
 
+[project.optional-dependencies]
+dev = [
+]
 
 [option.entry_points]
 dask_operator_plugin =
