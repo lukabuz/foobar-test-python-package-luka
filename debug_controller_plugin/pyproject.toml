@@ -1,0 +1,5 @@
+
+
+[option.entry_points]
+dask_operator_plugin =
+   my_controller_plugin = my_controller_plugin.plugin
